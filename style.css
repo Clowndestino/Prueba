@@ -12,3 +12,7 @@ p{
     background-color: black;
     color: aliceblue;
 }
+
+a{
+    text-decoration: none;
+}
