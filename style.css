@@ -13,6 +13,26 @@ p{
     color: aliceblue;
 }
 
-a{
+a, ul, li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     text-decoration: none;
+}
+
+header{
+    background-color: grey;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    border: 3px;
+    border-color: black
+}
+
+footer{
+    background-color: red;
+    color: aliceblue;
 }
