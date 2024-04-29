@@ -3,6 +3,10 @@ body{
     padding: 0%;
 }
 
+a{
+    text-decoration: none
+}
+
 h1{
     background-color: red;
     color: aliceblue;
@@ -13,11 +17,20 @@ p{
     color: aliceblue;
 }
 
-a, ul, li{
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: azure;
+    width: 150px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+  .Navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    text-decoration: none;
 }
 
 header{
@@ -29,8 +42,6 @@ header{
 div{
     display: flex;
     flex-direction: column;
-    border: 3px;
-    border-color: black
 }
 
 footer{
