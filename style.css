@@ -14,7 +14,7 @@ body{
     height: 250px;
     width: 180px;
     border-radius: 10px;
-    border-color: aliceblue;
+    border: solid black;
     background-color: blueviolet;
 }
 
@@ -23,6 +23,12 @@ a{
 }
 
 h1{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background-color: red;
     color: aliceblue;
 }
@@ -30,6 +36,13 @@ h1{
 p{
     background-color: black;
     color: aliceblue;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
 }
 
 
@@ -38,9 +51,14 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: initial;
+    background-color: rgba(255, 0, 0, 0.719);
+    height: 300px;
+    color: aliceblue;
 }
 
-header{
+/*header{
     background-color: grey;
     height: 120px;
 }
