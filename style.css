@@ -1,6 +1,21 @@
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.container, .card{
+    display: inline-block;
+    margin: 90px;
+}
+
+.card{
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background-color: blueviolet;
 }
 
 a{
@@ -17,15 +32,7 @@ p{
     color: aliceblue;
 }
 
-.card{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    background-color: azure;
-    width: 150px;
-    height: 120px;
-    border-radius: 15px;
-}
+
 
   .Navbar{
     display: flex;
@@ -39,13 +46,20 @@ header{
 }
 
 
-div{
+/*div{
     display: flex;
     flex-direction: column;
-}
+}*/
 
 footer{
     background-color: red;
     color: aliceblue;
     height: 120px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
