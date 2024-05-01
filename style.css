@@ -5,17 +5,14 @@ body{
     background-color: whitesmoke;
 }
 
-.container, .card{
+ .card{
     display: inline-block;
     margin: 90px;
-}
-
-.card{
     height: 250px;
     width: 180px;
     border-radius: 10px;
     border: solid black;
-    background-color: blueviolet;
+    background-color: crimson;
 }
 
 a{
@@ -31,6 +28,8 @@ h1{
     align-items: center;
     background-color: red;
     color: aliceblue;
+    font-size: xx-large;
+    font-weight: 300;
 }
 
 p{
@@ -56,19 +55,8 @@ p{
     background-color: rgba(255, 0, 0, 0.719);
     height: 300px;
     color: aliceblue;
+    font-size: xx-large;
 }
-
-/*header{
-    background-color: grey;
-    height: 120px;
-}
-
-
-/*div{
-    display: flex;
-    flex-direction: column;
-}*/
-
 footer{
     background-color: red;
     color: aliceblue;
@@ -77,7 +65,6 @@ footer{
 
 h3{
     display: flex;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    text-align: center;
 }
