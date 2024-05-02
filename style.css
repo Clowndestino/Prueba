@@ -2,17 +2,37 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-image:linear-gradient(to bottom, red,white, black);
 }
 
  .card{
     display: inline-block;
-    margin: 90px;
+    margin: 70px;
     height: 250px;
     width: 180px;
     border-radius: 10px;
     border: solid black;
     background-color: crimson;
+    transform: rotate(355deg);
+    transition: 2s;
+}
+
+.card:hover{
+    height: 350px;
+    width: 280px;
+    background-color: aliceblue;
+}
+
+input{
+    height: 30px;
+    width: 20px;
+    transition: 2s;
+}
+
+input:focus{
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
 }
 
 a{
@@ -30,6 +50,18 @@ h1{
     color: aliceblue;
     font-size: xx-large;
     font-weight: 300;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 p{
