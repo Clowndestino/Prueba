@@ -5,7 +5,7 @@ body{
     background-image:linear-gradient(to bottom, red,white, black);
 }
 
- .card{
+.card{
     display: inline-block;
     margin: 70px;
     height: 250px;
@@ -26,7 +26,7 @@ body{
 input{
     height: 30px;
     width: 20px;
-    transition: 2s;
+    transition: 1s;
 }
 
 input:focus{
@@ -52,7 +52,7 @@ h1{
     color: aliceblue;
     font-size: xx-large;
     font-weight: 300;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
 }
