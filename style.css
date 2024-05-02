@@ -35,7 +35,9 @@ input:focus{
     font-size: 24px;
 }
 
-a{
+a,li,ul{
+    display:flex;
+    flex-direction: column;
     text-decoration: none
 }
 
@@ -73,12 +75,11 @@ p{
     justify-content: center;
     align-items: center;
     font-size: xx-large;
-
 }
 
 
 
-  .Navbar{
+.Navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
