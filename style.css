@@ -3,13 +3,14 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-image:linear-gradient(to bottom, red,white, black);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card{
     display: inline-block;
     margin: 70px;
-    height: 250px;
-    width: 180px;
+    height: 280px;
+    width: 200px;
     border-radius: 10px;
     border: solid black;
     background-color: crimson;
@@ -24,14 +25,14 @@ body{
 }
 
 input{
-    height: 30px;
-    width: 20px;
+    height: 20px;
+    width: 25px;
     transition: 1s;
 }
 
 input:focus{
     height: 50px;
-    width: 200px;
+    width: 50px;
     font-size: 24px;
 }
 
@@ -48,11 +49,9 @@ h1{
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: red;
     color: aliceblue;
     font-size: xx-large;
-    font-weight: 300;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
 }
@@ -69,7 +68,8 @@ h1{
 p{
     background-color: black;
     color: aliceblue;
-    height: 150px;
+    height: 100px;
+    width: 250px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -82,14 +82,18 @@ p{
 .Navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: initial;
-    background-color: rgba(255, 0, 0, 0.719);
     height: 300px;
     color: aliceblue;
     font-size: xx-large;
 }
+
+.Navbar, a:hover{
+    color: rgb(12, 12, 12);
+}
+
 footer{
     background-color: red;
     color: aliceblue;
