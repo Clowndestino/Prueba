@@ -6,11 +6,18 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+img{
+    height: 150px;
+    width: auto;
+    padding: 30px;
+}
+
+
 .card{
     display: inline-block;
     margin: 70px;
-    height: 280px;
-    width: 200px;
+    height: 350px;
+    width: 205px;
     border-radius: 10px;
     border: solid black;
     background-color: crimson;
@@ -25,6 +32,7 @@ body{
 }
 
 input{
+    text-align: justify;
     height: 20px;
     width: 25px;
     transition: 1s;
@@ -44,7 +52,7 @@ a,li,ul{
 
 h1{
     height: 200px;
-    display: flex;
+    display: inline;
     flex-direction: row;
     justify-content: center;
     align-content: center;
@@ -88,6 +96,7 @@ p{
     height: 300px;
     color: aliceblue;
     font-size: xx-large;
+    list-style-type: none;
 }
 
 .Navbar, a:hover{
