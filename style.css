@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image:linear-gradient(to bottom, red,white, black);
+    background-image:linear-gradient(to bottom,violet, black,darkviolet);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -104,7 +104,7 @@ p{
 }
 
 footer{
-    background-color: red;
+    background-image: linear-gradient(to right, darkviolet,black,violet);
     color: aliceblue;
     height: 120px;
 }
