@@ -7,10 +7,17 @@ body{
 }
 
 .container{
-    background-image: url(/Img/Zoro.png);
+    background-image: url(/Img/Luffy.png);
+    background-repeat: no-repeat;
+    background-size: 25px 50px;
+    background-size: 50% 50%;
+    background-position: right;
 }
 
 img{
+    display: flex;
+    align-items: start;
+    justify-content: start;
     height: 150px;
     width: auto;
     padding: 30px;
@@ -19,13 +26,15 @@ img{
 
 .card{
     display: inline-block;
-    margin: 70px;
+    margin: 50px;
     height: 350px;
-    width: 205px;
+    width: 255px;
     border-radius: 10px;
-    border: solid black;
-    background-color: crimson;
-    background-image: url(/Img/Luffy.png);
+    border: solid greenyellow;
+    background-color:transparent;
+    background-image: url(/Img/Franky\ emblem.png);
+    background-position: center;
+    background-size: cover;
     transform: rotate(355deg);
     transition: 2s;
 }
@@ -37,17 +46,20 @@ img{
 }
 
 input{
-    text-align: justify;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
     height: 20px;
-    width: 25px;
+    width: 20px;
     transition: 1s;
 }
 
-input:focus{
+/*input:focus{
     height: 50px;
     width: 50px;
     font-size: 24px;
-}
+}*/
 
 a,li,ul{
     display:flex;
@@ -59,9 +71,9 @@ h1{
     height: 200px;
     display: inline;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    justify-content: start;
+    align-content: start;
+    align-items: start;
     color: aliceblue;
     font-size: xx-large;
     animation-duration: 1s;
