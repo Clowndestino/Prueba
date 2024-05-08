@@ -6,6 +6,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container{
+    background-image: url(/Img/Zoro.png);
+}
+
 img{
     height: 150px;
     width: auto;
@@ -21,6 +25,7 @@ img{
     border-radius: 10px;
     border: solid black;
     background-color: crimson;
+    background-image: url(/Img/Luffy.png);
     transform: rotate(355deg);
     transition: 2s;
 }
